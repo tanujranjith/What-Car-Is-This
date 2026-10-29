@@ -1,0 +1,2788 @@
+{
+  "architecture": "efficientnet_b0",
+  "image_size": 224,
+  "labels": [
+    {
+      "key": "audi/a7/audi-a7-gen-2010-2014",
+      "make": "audi",
+      "model": "audi/a7",
+      "generation": "audi-a7-gen-2010-2014",
+      "year_start": 2010,
+      "year_end": 2014
+    },
+    {
+      "key": "audi/a7/audi-a7-gen-2014-2017",
+      "make": "audi",
+      "model": "audi/a7",
+      "generation": "audi-a7-gen-2014-2017",
+      "year_start": 2014,
+      "year_end": 2017
+    },
+    {
+      "key": "audi/a7/audi-a7-gen-2017-2020",
+      "make": "audi",
+      "model": "audi/a7",
+      "generation": "audi-a7-gen-2017-2020",
+      "year_start": 2017,
+      "year_end": 2020
+    },
+    {
+      "key": "audi/a8/audi-a8-gen-2010-2013",
+      "make": "audi",
+      "model": "audi/a8",
+      "generation": "audi-a8-gen-2010-2013",
+      "year_start": 2010,
+      "year_end": 2013
+    },
+    {
+      "key": "audi/a8/audi-a8-gen-2013-2017",
+      "make": "audi",
+      "model": "audi/a8",
+      "generation": "audi-a8-gen-2013-2017",
+      "year_start": 2013,
+      "year_end": 2017
+    },
+    {
+      "key": "audi/a8/audi-a8-gen-2017-2020",
+      "make": "audi",
+      "model": "audi/a8",
+      "generation": "audi-a8-gen-2017-2020",
+      "year_start": 2017,
+      "year_end": 2020
+    },
+    {
+      "key": "audi/q7/audi-q7-gen-2009-2015",
+      "make": "audi",
+      "model": "audi/q7",
+      "generation": "audi-q7-gen-2009-2015",
+      "year_start": 2009,
+      "year_end": 2015
+    },
+    {
+      "key": "audi/q7/audi-q7-gen-2015-2019",
+      "make": "audi",
+      "model": "audi/q7",
+      "generation": "audi-q7-gen-2015-2019",
+      "year_start": 2015,
+      "year_end": 2019
+    },
+    {
+      "key": "audi/q7/audi-q7-gen-2019-2020",
+      "make": "audi",
+      "model": "audi/q7",
+      "generation": "audi-q7-gen-2019-2020",
+      "year_start": 2019,
+      "year_end": 2020
+    },
+    {
+      "key": "audi/q8/audi-q8-gen-2018-2020",
+      "make": "audi",
+      "model": "audi/q8",
+      "generation": "audi-q8-gen-2018-2020",
+      "year_start": 2018,
+      "year_end": 2020
+    },
+    {
+      "key": "bmw/bmw-series5/bmw-series5-gen-2011-2016",
+      "make": "bmw",
+      "model": "bmw/bmw-series5",
+      "generation": "bmw-series5-gen-2011-2016",
+      "year_start": 2011,
+      "year_end": 2016
+    },
+    {
+      "key": "bmw/bmw-series5/bmw-series5-gen-2017-2020",
+      "make": "bmw",
+      "model": "bmw/bmw-series5",
+      "generation": "bmw-series5-gen-2017-2020",
+      "year_start": 2017,
+      "year_end": 2020
+    },
+    {
+      "key": "bmw/bmw-series7/bmw-series7-gen-2008-2015",
+      "make": "bmw",
+      "model": "bmw/bmw-series7",
+      "generation": "bmw-series7-gen-2008-2015",
+      "year_start": 2008,
+      "year_end": 2015
+    },
+    {
+      "key": "bmw/bmw-series7/bmw-series7-gen-2016-2020",
+      "make": "bmw",
+      "model": "bmw/bmw-series7",
+      "generation": "bmw-series7-gen-2016-2020",
+      "year_start": 2016,
+      "year_end": 2020
+    },
+    {
+      "key": "bmw/bmw-x5/bmw-x5-gen-2006-2013",
+      "make": "bmw",
+      "model": "bmw/bmw-x5",
+      "generation": "bmw-x5-gen-2006-2013",
+      "year_start": 2006,
+      "year_end": 2013
+    },
+    {
+      "key": "bmw/bmw-x5/bmw-x5-gen-2014-2018",
+      "make": "bmw",
+      "model": "bmw/bmw-x5",
+      "generation": "bmw-x5-gen-2014-2018",
+      "year_start": 2014,
+      "year_end": 2018
+    },
+    {
+      "key": "bmw/bmw-x5/bmw-x5-gen-2019-2020",
+      "make": "bmw",
+      "model": "bmw/bmw-x5",
+      "generation": "bmw-x5-gen-2019-2020",
+      "year_start": 2019,
+      "year_end": 2020
+    },
+    {
+      "key": "bmw/bmw-x6/bmw-x6-gen-2009-2014",
+      "make": "bmw",
+      "model": "bmw/bmw-x6",
+      "generation": "bmw-x6-gen-2009-2014",
+      "year_start": 2009,
+      "year_end": 2014
+    },
+    {
+      "key": "bmw/bmw-x6/bmw-x6-gen-2015-2019",
+      "make": "bmw",
+      "model": "bmw/bmw-x6",
+      "generation": "bmw-x6-gen-2015-2019",
+      "year_start": 2015,
+      "year_end": 2019
+    },
+    {
+      "key": "bmw/bmw-x6/bmw-x6-gen-2020-2020",
+      "make": "bmw",
+      "model": "bmw/bmw-x6",
+      "generation": "bmw-x6-gen-2020-2020",
+      "year_start": 2020,
+      "year_end": 2020
+    },
+    {
+      "key": "cadillac/cadillac-escalade/cadillac-escalade-gen-2000-2006",
+      "make": "cadillac",
+      "model": "cadillac/cadillac-escalade",
+      "generation": "cadillac-escalade-gen-2000-2006",
+      "year_start": 2000,
+      "year_end": 2006
+    },
+    {
+      "key": "cadillac/cadillac-escalade/cadillac-escalade-gen-2006-2013",
+      "make": "cadillac",
+      "model": "cadillac/cadillac-escalade",
+      "generation": "cadillac-escalade-gen-2006-2013",
+      "year_start": 2006,
+      "year_end": 2013
+    },
+    {
+      "key": "cadillac/cadillac-escalade/cadillac-escalade-gen-2013-2020",
+      "make": "cadillac",
+      "model": "cadillac/cadillac-escalade",
+      "generation": "cadillac-escalade-gen-2013-2020",
+      "year_start": 2013,
+      "year_end": 2020
+    },
+    {
+      "key": "cadillac/cadillac-escalade/cadillac-escalade-gen-2020-2021",
+      "make": "cadillac",
+      "model": "cadillac/cadillac-escalade",
+      "generation": "cadillac-escalade-gen-2020-2021",
+      "year_start": 2020,
+      "year_end": 2021
+    },
+    {
+      "key": "chevrolet/chevrolet-aveo/chevrolet-aveo-gen-2005-2011",
+      "make": "chevrolet",
+      "model": "chevrolet/chevrolet-aveo",
+      "generation": "chevrolet-aveo-gen-2005-2011",
+      "year_start": 2005,
+      "year_end": 2011
+    },
+    {
+      "key": "chevrolet/chevrolet-aveo/chevrolet-aveo-gen-2011-2020",
+      "make": "chevrolet",
+      "model": "chevrolet/chevrolet-aveo",
+      "generation": "chevrolet-aveo-gen-2011-2020",
+      "year_start": 2011,
+      "year_end": 2020
+    },
+    {
+      "key": "chevrolet/chevrolet-impala/chevrolet-impala-gen-2013-2020",
+      "make": "chevrolet",
+      "model": "chevrolet/chevrolet-impala",
+      "generation": "chevrolet-impala-gen-2013-2020",
+      "year_start": 2013,
+      "year_end": 2020
+    },
+    {
+      "key": "chevrolet/chevrolet-malibu/chevrolet-malibu-gen-2008-2012",
+      "make": "chevrolet",
+      "model": "chevrolet/chevrolet-malibu",
+      "generation": "chevrolet-malibu-gen-2008-2012",
+      "year_start": 2008,
+      "year_end": 2012
+    },
+    {
+      "key": "chevrolet/chevrolet-malibu/chevrolet-malibu-gen-2012-2016",
+      "make": "chevrolet",
+      "model": "chevrolet/chevrolet-malibu",
+      "generation": "chevrolet-malibu-gen-2012-2016",
+      "year_start": 2012,
+      "year_end": 2016
+    },
+    {
+      "key": "chevrolet/chevrolet-malibu/chevrolet-malibu-gen-2016-2020",
+      "make": "chevrolet",
+      "model": "chevrolet/chevrolet-malibu",
+      "generation": "chevrolet-malibu-gen-2016-2020",
+      "year_start": 2016,
+      "year_end": 2020
+    },
+    {
+      "key": "chevrolet/chevrolet-silverado/chevrolet--silverado-gen-2007-2014",
+      "make": "chevrolet",
+      "model": "chevrolet/chevrolet-silverado",
+      "generation": "chevrolet--silverado-gen-2007-2014",
+      "year_start": 2007,
+      "year_end": 2014
+    },
+    {
+      "key": "chevrolet/chevrolet-silverado/chevrolet--silverado-gen-2015-2020",
+      "make": "chevrolet",
+      "model": "chevrolet/chevrolet-silverado",
+      "generation": "chevrolet--silverado-gen-2015-2020",
+      "year_start": 2015,
+      "year_end": 2020
+    },
+    {
+      "key": "chevrolet/chevrolet-tahoe/chevrolet-tahoe-gen-2015-2020",
+      "make": "chevrolet",
+      "model": "chevrolet/chevrolet-tahoe",
+      "generation": "chevrolet-tahoe-gen-2015-2020",
+      "year_start": 2015,
+      "year_end": 2020
+    },
+    {
+      "key": "chevrolet/chevrolet-traverse/chevrolet-traverse-gen-2008-2012",
+      "make": "chevrolet",
+      "model": "chevrolet/chevrolet-traverse",
+      "generation": "chevrolet-traverse-gen-2008-2012",
+      "year_start": 2008,
+      "year_end": 2012
+    },
+    {
+      "key": "chevrolet/chevrolet-traverse/chevrolet-traverse-gen-2012-2017",
+      "make": "chevrolet",
+      "model": "chevrolet/chevrolet-traverse",
+      "generation": "chevrolet-traverse-gen-2012-2017",
+      "year_start": 2012,
+      "year_end": 2017
+    },
+    {
+      "key": "chevrolet/chevrolet-traverse/chevrolet-traverse-gen-2017-2020",
+      "make": "chevrolet",
+      "model": "chevrolet/chevrolet-traverse",
+      "generation": "chevrolet-traverse-gen-2017-2020",
+      "year_start": 2017,
+      "year_end": 2020
+    },
+    {
+      "key": "chrysler/300/chrysler-300-gen-2011-2020",
+      "make": "chrysler",
+      "model": "chrysler/300",
+      "generation": "chrysler-300-gen-2011-2020",
+      "year_start": 2011,
+      "year_end": 2020
+    },
+    {
+      "key": "dodge/dodge-charger/dodge-charger-gen-2011-2020",
+      "make": "dodge",
+      "model": "dodge/dodge-charger",
+      "generation": "dodge-charger-gen-2011-2020",
+      "year_start": 2011,
+      "year_end": 2020
+    },
+    {
+      "key": "dodge/dodge-durango/dodge-durango-2004-2009",
+      "make": "dodge",
+      "model": "dodge/dodge-durango",
+      "generation": "dodge-durango-2004-2009",
+      "year_start": 2004,
+      "year_end": 2009
+    },
+    {
+      "key": "dodge/dodge-durango/dodge-durango-2013-2021",
+      "make": "dodge",
+      "model": "dodge/dodge-durango",
+      "generation": "dodge-durango-2013-2021",
+      "year_start": 2013,
+      "year_end": 2021
+    },
+    {
+      "key": "ford/ford-crownvictoria/ford-crownvictoria-gen-1998-2012",
+      "make": "ford",
+      "model": "ford/ford-crownvictoria",
+      "generation": "ford-crownvictoria-gen-1998-2012",
+      "year_start": 1998,
+      "year_end": 2012
+    },
+    {
+      "key": "ford/ford-edge/ford-edge-gen-2007-2020",
+      "make": "ford",
+      "model": "ford/ford-edge",
+      "generation": "ford-edge-gen-2007-2020",
+      "year_start": 2007,
+      "year_end": 2020
+    },
+    {
+      "key": "ford/ford-expedition/ford-expedition-gen-1997-2002",
+      "make": "ford",
+      "model": "ford/ford-expedition",
+      "generation": "ford-expedition-gen-1997-2002",
+      "year_start": 1997,
+      "year_end": 2002
+    },
+    {
+      "key": "ford/ford-expedition/ford-expedition-gen-2003-2006",
+      "make": "ford",
+      "model": "ford/ford-expedition",
+      "generation": "ford-expedition-gen-2003-2006",
+      "year_start": 2003,
+      "year_end": 2006
+    },
+    {
+      "key": "ford/ford-expedition/ford-expedition-gen-2007-2017",
+      "make": "ford",
+      "model": "ford/ford-expedition",
+      "generation": "ford-expedition-gen-2007-2017",
+      "year_start": 2007,
+      "year_end": 2017
+    },
+    {
+      "key": "ford/ford-expedition/ford-expedition-gen-2018-2020",
+      "make": "ford",
+      "model": "ford/ford-expedition",
+      "generation": "ford-expedition-gen-2018-2020",
+      "year_start": 2018,
+      "year_end": 2020
+    },
+    {
+      "key": "ford/ford-explorer/ford-explorer-gen-2011-2015",
+      "make": "ford",
+      "model": "ford/ford-explorer",
+      "generation": "ford-explorer-gen-2011-2015",
+      "year_start": 2011,
+      "year_end": 2015
+    },
+    {
+      "key": "ford/ford-explorer/ford-explorer-gen-2016-2019",
+      "make": "ford",
+      "model": "ford/ford-explorer",
+      "generation": "ford-explorer-gen-2016-2019",
+      "year_start": 2016,
+      "year_end": 2019
+    },
+    {
+      "key": "ford/ford-explorer/ford-explorer-gen-2020-2020",
+      "make": "ford",
+      "model": "ford/ford-explorer",
+      "generation": "ford-explorer-gen-2020-2020",
+      "year_start": 2020,
+      "year_end": 2020
+    },
+    {
+      "key": "ford/ford-f150/ford-f150-gen-2009-2014",
+      "make": "ford",
+      "model": "ford/ford-f150",
+      "generation": "ford-f150-gen-2009-2014",
+      "year_start": 2009,
+      "year_end": 2014
+    },
+    {
+      "key": "ford/ford-f150/ford-f150-gen-2015-2020",
+      "make": "ford",
+      "model": "ford/ford-f150",
+      "generation": "ford-f150-gen-2015-2020",
+      "year_start": 2015,
+      "year_end": 2020
+    },
+    {
+      "key": "ford/ford-flex/ford-flex-gen-2009-2020",
+      "make": "ford",
+      "model": "ford/ford-flex",
+      "generation": "ford-flex-gen-2009-2020",
+      "year_start": 2009,
+      "year_end": 2020
+    },
+    {
+      "key": "ford/ford-taurus/ford-taurus-gen-2012-2019",
+      "make": "ford",
+      "model": "ford/ford-taurus",
+      "generation": "ford-taurus-gen-2012-2019",
+      "year_start": 2012,
+      "year_end": 2019
+    },
+    {
+      "key": "genesis/g80/gensis-g80-gen-2016-2019",
+      "make": "genesis",
+      "model": "genesis/g80",
+      "generation": "gensis-g80-gen-2016-2019",
+      "year_start": 2016,
+      "year_end": 2019
+    },
+    {
+      "key": "genesis/g80/gensis-g80-gen-2020-2021",
+      "make": "genesis",
+      "model": "genesis/g80",
+      "generation": "gensis-g80-gen-2020-2021",
+      "year_start": 2020,
+      "year_end": 2021
+    },
+    {
+      "key": "gmc/gmc-yukon/gmc-yukon-gen-1992-2000",
+      "make": "gmc",
+      "model": "gmc/gmc-yukon",
+      "generation": "gmc-yukon-gen-1992-2000",
+      "year_start": 1992,
+      "year_end": 2000
+    },
+    {
+      "key": "gmc/gmc-yukon/gmc-yukon-gen-2000-2006",
+      "make": "gmc",
+      "model": "gmc/gmc-yukon",
+      "generation": "gmc-yukon-gen-2000-2006",
+      "year_start": 2000,
+      "year_end": 2006
+    },
+    {
+      "key": "gmc/gmc-yukon/gmc-yukon-gen-2007-2014",
+      "make": "gmc",
+      "model": "gmc/gmc-yukon",
+      "generation": "gmc-yukon-gen-2007-2014",
+      "year_start": 2007,
+      "year_end": 2014
+    },
+    {
+      "key": "gmc/gmc-yukon/gmc-yukon-gen-2015-2020",
+      "make": "gmc",
+      "model": "gmc/gmc-yukon",
+      "generation": "gmc-yukon-gen-2015-2020",
+      "year_start": 2015,
+      "year_end": 2020
+    },
+    {
+      "key": "honda/honda-accord/honda-accord-gen-2008-2012",
+      "make": "honda",
+      "model": "honda/honda-accord",
+      "generation": "honda-accord-gen-2008-2012",
+      "year_start": 2008,
+      "year_end": 2012
+    },
+    {
+      "key": "honda/honda-accord/honda-accord-gen-2013-2017",
+      "make": "honda",
+      "model": "honda/honda-accord",
+      "generation": "honda-accord-gen-2013-2017",
+      "year_start": 2013,
+      "year_end": 2017
+    },
+    {
+      "key": "honda/honda-accord/honda-accord-gen-2018-2020",
+      "make": "honda",
+      "model": "honda/honda-accord",
+      "generation": "honda-accord-gen-2018-2020",
+      "year_start": 2018,
+      "year_end": 2020
+    },
+    {
+      "key": "honda/honda-odyssey/honda-odyssey-gen-2005-2011",
+      "make": "honda",
+      "model": "honda/honda-odyssey",
+      "generation": "honda-odyssey-gen-2005-2011",
+      "year_start": 2005,
+      "year_end": 2011
+    },
+    {
+      "key": "honda/honda-odyssey/honda-odyssey-gen-2011-2017",
+      "make": "honda",
+      "model": "honda/honda-odyssey",
+      "generation": "honda-odyssey-gen-2011-2017",
+      "year_start": 2011,
+      "year_end": 2017
+    },
+    {
+      "key": "honda/honda-odyssey/honda-odyssey-gen-2017-2021",
+      "make": "honda",
+      "model": "honda/honda-odyssey",
+      "generation": "honda-odyssey-gen-2017-2021",
+      "year_start": 2017,
+      "year_end": 2021
+    },
+    {
+      "key": "hyundai/hyundai-accent/hyundai-accent-gen-2006-2011",
+      "make": "hyundai",
+      "model": "hyundai/hyundai-accent",
+      "generation": "hyundai-accent-gen-2006-2011",
+      "year_start": 2006,
+      "year_end": 2011
+    },
+    {
+      "key": "hyundai/hyundai-accent/hyundai-accent-gen-2012-2017",
+      "make": "hyundai",
+      "model": "hyundai/hyundai-accent",
+      "generation": "hyundai-accent-gen-2012-2017",
+      "year_start": 2012,
+      "year_end": 2017
+    },
+    {
+      "key": "hyundai/hyundai-accent/hyundai-accent-gen-2018-2020",
+      "make": "hyundai",
+      "model": "hyundai/hyundai-accent",
+      "generation": "hyundai-accent-gen-2018-2020",
+      "year_start": 2018,
+      "year_end": 2020
+    },
+    {
+      "key": "hyundai/hyundai-azera/hyundai-azera-gen-2011-2017",
+      "make": "hyundai",
+      "model": "hyundai/hyundai-azera",
+      "generation": "hyundai-azera-gen-2011-2017",
+      "year_start": 2011,
+      "year_end": 2017
+    },
+    {
+      "key": "hyundai/hyundai-azera/hyundai-azera-gen-2017-2020",
+      "make": "hyundai",
+      "model": "hyundai/hyundai-azera",
+      "generation": "hyundai-azera-gen-2017-2020",
+      "year_start": 2017,
+      "year_end": 2020
+    },
+    {
+      "key": "hyundai/hyundai-azera/hyundai-azera-gen-2020-2020",
+      "make": "hyundai",
+      "model": "hyundai/hyundai-azera",
+      "generation": "hyundai-azera-gen-2020-2020",
+      "year_start": 2020,
+      "year_end": 2020
+    },
+    {
+      "key": "hyundai/hyundai-elantra/hyundai-elantra-gen-2010-2015",
+      "make": "hyundai",
+      "model": "hyundai/hyundai-elantra",
+      "generation": "hyundai-elantra-gen-2010-2015",
+      "year_start": 2010,
+      "year_end": 2015
+    },
+    {
+      "key": "hyundai/hyundai-elantra/hyundai-elantra-gen-2016-2018",
+      "make": "hyundai",
+      "model": "hyundai/hyundai-elantra",
+      "generation": "hyundai-elantra-gen-2016-2018",
+      "year_start": 2016,
+      "year_end": 2018
+    },
+    {
+      "key": "hyundai/hyundai-elantra/hyundai-elantra-gen-2019-2020",
+      "make": "hyundai",
+      "model": "hyundai/hyundai-elantra",
+      "generation": "hyundai-elantra-gen-2019-2020",
+      "year_start": 2019,
+      "year_end": 2020
+    },
+    {
+      "key": "hyundai/hyundai-h1/hyundai-h1-gen-1999-2004",
+      "make": "hyundai",
+      "model": "hyundai/hyundai-h1",
+      "generation": "hyundai-h1-gen-1999-2004",
+      "year_start": 1999,
+      "year_end": 2004
+    },
+    {
+      "key": "hyundai/hyundai-h1/hyundai-h1-gen-2004-2007",
+      "make": "hyundai",
+      "model": "hyundai/hyundai-h1",
+      "generation": "hyundai-h1-gen-2004-2007",
+      "year_start": 2004,
+      "year_end": 2007
+    },
+    {
+      "key": "hyundai/hyundai-h1/hyundai-h1-gen-2007-2018",
+      "make": "hyundai",
+      "model": "hyundai/hyundai-h1",
+      "generation": "hyundai-h1-gen-2007-2018",
+      "year_start": 2007,
+      "year_end": 2018
+    },
+    {
+      "key": "hyundai/hyundai-h1/hyundai-h1-gen-2018-2021",
+      "make": "hyundai",
+      "model": "hyundai/hyundai-h1",
+      "generation": "hyundai-h1-gen-2018-2021",
+      "year_start": 2018,
+      "year_end": 2021
+    },
+    {
+      "key": "hyundai/hyundai-santafe/hyundai-santafe-2000-2006",
+      "make": "hyundai",
+      "model": "hyundai/hyundai-santafe",
+      "generation": "hyundai-santafe-2000-2006",
+      "year_start": 2000,
+      "year_end": 2006
+    },
+    {
+      "key": "hyundai/hyundai-santafe/hyundai-santafe-2006-2012",
+      "make": "hyundai",
+      "model": "hyundai/hyundai-santafe",
+      "generation": "hyundai-santafe-2006-2012",
+      "year_start": 2006,
+      "year_end": 2012
+    },
+    {
+      "key": "hyundai/hyundai-santafe/hyundai-santafe-2012-2018",
+      "make": "hyundai",
+      "model": "hyundai/hyundai-santafe",
+      "generation": "hyundai-santafe-2012-2018",
+      "year_start": 2012,
+      "year_end": 2018
+    },
+    {
+      "key": "hyundai/hyundai-santafe/hyundai-santafe-2018-2020",
+      "make": "hyundai",
+      "model": "hyundai/hyundai-santafe",
+      "generation": "hyundai-santafe-2018-2020",
+      "year_start": 2018,
+      "year_end": 2020
+    },
+    {
+      "key": "hyundai/hyundai-santafe/hyundai-santafe-2020-2021",
+      "make": "hyundai",
+      "model": "hyundai/hyundai-santafe",
+      "generation": "hyundai-santafe-2020-2021",
+      "year_start": 2020,
+      "year_end": 2021
+    },
+    {
+      "key": "hyundai/hyundai-sonata/hyundai-sonata-gen-2010-2010",
+      "make": "hyundai",
+      "model": "hyundai/hyundai-sonata",
+      "generation": "hyundai-sonata-gen-2010-2010",
+      "year_start": 2010,
+      "year_end": 2010
+    },
+    {
+      "key": "hyundai/hyundai-sonata/hyundai-sonata-gen-2011-2014",
+      "make": "hyundai",
+      "model": "hyundai/hyundai-sonata",
+      "generation": "hyundai-sonata-gen-2011-2014",
+      "year_start": 2011,
+      "year_end": 2014
+    },
+    {
+      "key": "hyundai/hyundai-sonata/hyundai-sonata-gen-2015-2017",
+      "make": "hyundai",
+      "model": "hyundai/hyundai-sonata",
+      "generation": "hyundai-sonata-gen-2015-2017",
+      "year_start": 2015,
+      "year_end": 2017
+    },
+    {
+      "key": "hyundai/hyundai-sonata/hyundai-sonata-gen-2018-2019",
+      "make": "hyundai",
+      "model": "hyundai/hyundai-sonata",
+      "generation": "hyundai-sonata-gen-2018-2019",
+      "year_start": 2018,
+      "year_end": 2019
+    },
+    {
+      "key": "hyundai/hyundai-sonata/hyundai-sonata-gen-2020-2020",
+      "make": "hyundai",
+      "model": "hyundai/hyundai-sonata",
+      "generation": "hyundai-sonata-gen-2020-2020",
+      "year_start": 2020,
+      "year_end": 2020
+    },
+    {
+      "key": "infiniti/Infiniti-qx70/Infiniti-qx70-gen-2013-2021",
+      "make": "infiniti",
+      "model": "infiniti/Infiniti-qx70",
+      "generation": "Infiniti-qx70-gen-2013-2021",
+      "year_start": 2013,
+      "year_end": 2021
+    },
+    {
+      "key": "infiniti/Infiniti-qx80/Infiniti-qx80-gen-2014-2021",
+      "make": "infiniti",
+      "model": "infiniti/Infiniti-qx80",
+      "generation": "Infiniti-qx80-gen-2014-2021",
+      "year_start": 2014,
+      "year_end": 2021
+    },
+    {
+      "key": "infiniti/infiniti-q50/Infiniti-q50-gen-2013-2021",
+      "make": "infiniti",
+      "model": "infiniti/infiniti-q50",
+      "generation": "Infiniti-q50-gen-2013-2021",
+      "year_start": 2013,
+      "year_end": 2021
+    },
+    {
+      "key": "jeep/jeep-cherokee/jeep-cherokee-gen-2011-2020",
+      "make": "jeep",
+      "model": "jeep/jeep-cherokee",
+      "generation": "jeep-cherokee-gen-2011-2020",
+      "year_start": 2011,
+      "year_end": 2020
+    },
+    {
+      "key": "jeep/jeep-compass/jeep-compass-gen-2006-2020",
+      "make": "jeep",
+      "model": "jeep/jeep-compass",
+      "generation": "jeep-compass-gen-2006-2020",
+      "year_start": 2006,
+      "year_end": 2020
+    },
+    {
+      "key": "jeep/jeep-wrangler/jeep-wrangler-gen-1996-2020",
+      "make": "jeep",
+      "model": "jeep/jeep-wrangler",
+      "generation": "jeep-wrangler-gen-1996-2020",
+      "year_start": 1996,
+      "year_end": 2020
+    },
+    {
+      "key": "kia/kia-cadenza/kia-cadenza-gen-2010-2016",
+      "make": "kia",
+      "model": "kia/kia-cadenza",
+      "generation": "kia-cadenza-gen-2010-2016",
+      "year_start": 2010,
+      "year_end": 2016
+    },
+    {
+      "key": "kia/kia-cadenza/kia-cadenza-gen-2016-2020",
+      "make": "kia",
+      "model": "kia/kia-cadenza",
+      "generation": "kia-cadenza-gen-2016-2020",
+      "year_start": 2016,
+      "year_end": 2020
+    },
+    {
+      "key": "kia/kia-cadenza/kia-cadenza-gen-2020-2021",
+      "make": "kia",
+      "model": "kia/kia-cadenza",
+      "generation": "kia-cadenza-gen-2020-2021",
+      "year_start": 2020,
+      "year_end": 2021
+    },
+    {
+      "key": "kia/kia-cerato/kia-cerato-generation-2009-2013",
+      "make": "kia",
+      "model": "kia/kia-cerato",
+      "generation": "kia-cerato-generation-2009-2013",
+      "year_start": 2009,
+      "year_end": 2013
+    },
+    {
+      "key": "kia/kia-cerato/kia-cerato-generation-2014-2018",
+      "make": "kia",
+      "model": "kia/kia-cerato",
+      "generation": "kia-cerato-generation-2014-2018",
+      "year_start": 2014,
+      "year_end": 2018
+    },
+    {
+      "key": "kia/kia-cerato/kia-cerato-generation-2019-2020",
+      "make": "kia",
+      "model": "kia/kia-cerato",
+      "generation": "kia-cerato-generation-2019-2020",
+      "year_start": 2019,
+      "year_end": 2020
+    },
+    {
+      "key": "kia/kia-optima/kia-Optima-generation-2016-2018",
+      "make": "kia",
+      "model": "kia/kia-optima",
+      "generation": "kia-Optima-generation-2016-2018",
+      "year_start": 2016,
+      "year_end": 2018
+    },
+    {
+      "key": "kia/kia-optima/kia-optima-generation-2011-2015",
+      "make": "kia",
+      "model": "kia/kia-optima",
+      "generation": "kia-optima-generation-2011-2015",
+      "year_start": 2011,
+      "year_end": 2015
+    },
+    {
+      "key": "kia/kia-optima/kia-optima-generation-2019-2020",
+      "make": "kia",
+      "model": "kia/kia-optima",
+      "generation": "kia-optima-generation-2019-2020",
+      "year_start": 2019,
+      "year_end": 2020
+    },
+    {
+      "key": "kia/kia-picanto/kia-picanto-generation-2004-2010",
+      "make": "kia",
+      "model": "kia/kia-picanto",
+      "generation": "kia-picanto-generation-2004-2010",
+      "year_start": 2004,
+      "year_end": 2010
+    },
+    {
+      "key": "kia/kia-picanto/kia-picanto-generation-2011-2016",
+      "make": "kia",
+      "model": "kia/kia-picanto",
+      "generation": "kia-picanto-generation-2011-2016",
+      "year_start": 2011,
+      "year_end": 2016
+    },
+    {
+      "key": "kia/kia-picanto/kia-picanto-generation-2017-2020",
+      "make": "kia",
+      "model": "kia/kia-picanto",
+      "generation": "kia-picanto-generation-2017-2020",
+      "year_start": 2017,
+      "year_end": 2020
+    },
+    {
+      "key": "kia/kia-rio/kia-rio-generation-2012-2017",
+      "make": "kia",
+      "model": "kia/kia-rio",
+      "generation": "kia-rio-generation-2012-2017",
+      "year_start": 2012,
+      "year_end": 2017
+    },
+    {
+      "key": "kia/kia-rio/kia-rio-generation-2018-2020",
+      "make": "kia",
+      "model": "kia/kia-rio",
+      "generation": "kia-rio-generation-2018-2020",
+      "year_start": 2018,
+      "year_end": 2020
+    },
+    {
+      "key": "kia/kia-sportage/kia-sportage-generation-2010-2015",
+      "make": "kia",
+      "model": "kia/kia-sportage",
+      "generation": "kia-sportage-generation-2010-2015",
+      "year_start": 2010,
+      "year_end": 2015
+    },
+    {
+      "key": "kia/kia-sportage/kia-sportage-generation-2016-2020",
+      "make": "kia",
+      "model": "kia/kia-sportage",
+      "generation": "kia-sportage-generation-2016-2020",
+      "year_start": 2016,
+      "year_end": 2020
+    },
+    {
+      "key": "landrover/landrover-evoque/landrover-evoque-gen-2011-2018",
+      "make": "landrover",
+      "model": "landrover/landrover-evoque",
+      "generation": "landrover-evoque-gen-2011-2018",
+      "year_start": 2011,
+      "year_end": 2018
+    },
+    {
+      "key": "landrover/landrover-evoque/landrover-evoque-gen-2018-2021",
+      "make": "landrover",
+      "model": "landrover/landrover-evoque",
+      "generation": "landrover-evoque-gen-2018-2021",
+      "year_start": 2018,
+      "year_end": 2021
+    },
+    {
+      "key": "landrover/landrover-rangerover/landrover-rangerover-gen-2002-2012",
+      "make": "landrover",
+      "model": "landrover/landrover-rangerover",
+      "generation": "landrover-rangerover-gen-2002-2012",
+      "year_start": 2002,
+      "year_end": 2012
+    },
+    {
+      "key": "landrover/landrover-rangerover/landrover-rangerover-gen-2013-2021",
+      "make": "landrover",
+      "model": "landrover/landrover-rangerover",
+      "generation": "landrover-rangerover-gen-2013-2021",
+      "year_start": 2013,
+      "year_end": 2021
+    },
+    {
+      "key": "landrover/landrover-rangerover/landrover-rangeroversport-gen-2013-2021",
+      "make": "landrover",
+      "model": "landrover/landrover-rangerover",
+      "generation": "landrover-rangeroversport-gen-2013-2021",
+      "year_start": 2013,
+      "year_end": 2021
+    },
+    {
+      "key": "lexus/lexus-es/lexus-es-gen-2012-2018",
+      "make": "lexus",
+      "model": "lexus/lexus-es",
+      "generation": "lexus-es-gen-2012-2018",
+      "year_start": 2012,
+      "year_end": 2018
+    },
+    {
+      "key": "lexus/lexus-es/lexus-es-gen-2018-2020",
+      "make": "lexus",
+      "model": "lexus/lexus-es",
+      "generation": "lexus-es-gen-2018-2020",
+      "year_start": 2018,
+      "year_end": 2020
+    },
+    {
+      "key": "lexus/lexus-ls/lexus-ls-gen-2006-2012",
+      "make": "lexus",
+      "model": "lexus/lexus-ls",
+      "generation": "lexus-ls-gen-2006-2012",
+      "year_start": 2006,
+      "year_end": 2012
+    },
+    {
+      "key": "lexus/lexus-ls/lexus-ls-gen-2012-2017",
+      "make": "lexus",
+      "model": "lexus/lexus-ls",
+      "generation": "lexus-ls-gen-2012-2017",
+      "year_start": 2012,
+      "year_end": 2017
+    },
+    {
+      "key": "lexus/lexus-ls/lexus-ls-gen-2017-2020",
+      "make": "lexus",
+      "model": "lexus/lexus-ls",
+      "generation": "lexus-ls-gen-2017-2020",
+      "year_start": 2017,
+      "year_end": 2020
+    },
+    {
+      "key": "lexus/lexus-lx/lexus-lx-gen-2008-2012",
+      "make": "lexus",
+      "model": "lexus/lexus-lx",
+      "generation": "lexus-lx-gen-2008-2012",
+      "year_start": 2008,
+      "year_end": 2012
+    },
+    {
+      "key": "lexus/lexus-lx/lexus-lx-gen-2012-2015",
+      "make": "lexus",
+      "model": "lexus/lexus-lx",
+      "generation": "lexus-lx-gen-2012-2015",
+      "year_start": 2012,
+      "year_end": 2015
+    },
+    {
+      "key": "lexus/lexus-lx/lexus-lx-gen-2015-2020",
+      "make": "lexus",
+      "model": "lexus/lexus-lx",
+      "generation": "lexus-lx-gen-2015-2020",
+      "year_start": 2015,
+      "year_end": 2020
+    },
+    {
+      "key": "lexus/lexus-rx/lexus-rx-gen-1980-2020",
+      "make": "lexus",
+      "model": "lexus/lexus-rx",
+      "generation": "lexus-rx-gen-1980-2020",
+      "year_start": 1980,
+      "year_end": 2020
+    },
+    {
+      "key": "lincoln/lincoln-ls/lincoln-ls-gen-2000-2006",
+      "make": "lincoln",
+      "model": "lincoln/lincoln-ls",
+      "generation": "lincoln-ls-gen-2000-2006",
+      "year_start": 2000,
+      "year_end": 2006
+    },
+    {
+      "key": "lincoln/lincoln-navigator/lincoln-navigator-gen-2006-2020",
+      "make": "lincoln",
+      "model": "lincoln/lincoln-navigator",
+      "generation": "lincoln-navigator-gen-2006-2020",
+      "year_start": 2006,
+      "year_end": 2020
+    },
+    {
+      "key": "lincoln/lincoln-town/lincoin-town-gen-1998-2011",
+      "make": "lincoln",
+      "model": "lincoln/lincoln-town",
+      "generation": "lincoin-town-gen-1998-2011",
+      "year_start": 1998,
+      "year_end": 2011
+    },
+    {
+      "key": "mazda/mazda-3/mazda-3-gen-2009-2013",
+      "make": "mazda",
+      "model": "mazda/mazda-3",
+      "generation": "mazda-3-gen-2009-2013",
+      "year_start": 2009,
+      "year_end": 2013
+    },
+    {
+      "key": "mazda/mazda-3/mazda-3-gen-2014-2018",
+      "make": "mazda",
+      "model": "mazda/mazda-3",
+      "generation": "mazda-3-gen-2014-2018",
+      "year_start": 2014,
+      "year_end": 2018
+    },
+    {
+      "key": "mazda/mazda-3/mazda-3-gen-2019-2020",
+      "make": "mazda",
+      "model": "mazda/mazda-3",
+      "generation": "mazda-3-gen-2019-2020",
+      "year_start": 2019,
+      "year_end": 2020
+    },
+    {
+      "key": "mazda/mazda-6/mazda-6-gen-2009-2013",
+      "make": "mazda",
+      "model": "mazda/mazda-6",
+      "generation": "mazda-6-gen-2009-2013",
+      "year_start": 2009,
+      "year_end": 2013
+    },
+    {
+      "key": "mazda/mazda-6/mazda-6-gen-2014-2020",
+      "make": "mazda",
+      "model": "mazda/mazda-6",
+      "generation": "mazda-6-gen-2014-2020",
+      "year_start": 2014,
+      "year_end": 2020
+    },
+    {
+      "key": "mazda/mazda-cx3/mazda-cx3-gen-2015-2020",
+      "make": "mazda",
+      "model": "mazda/mazda-cx3",
+      "generation": "mazda-cx3-gen-2015-2020",
+      "year_start": 2015,
+      "year_end": 2020
+    },
+    {
+      "key": "mazda/mazda-cx5/mazda-cx5-gen-2012-2020",
+      "make": "mazda",
+      "model": "mazda/mazda-cx5",
+      "generation": "mazda-cx5-gen-2012-2020",
+      "year_start": 2012,
+      "year_end": 2020
+    },
+    {
+      "key": "mazda/mazda-cx9/mazda-cx9-gen-2006-2015",
+      "make": "mazda",
+      "model": "mazda/mazda-cx9",
+      "generation": "mazda-cx9-gen-2006-2015",
+      "year_start": 2006,
+      "year_end": 2015
+    },
+    {
+      "key": "mazda/mazda-cx9/mazda-cx9-gen-2016-2020",
+      "make": "mazda",
+      "model": "mazda/mazda-cx9",
+      "generation": "mazda-cx9-gen-2016-2020",
+      "year_start": 2016,
+      "year_end": 2020
+    },
+    {
+      "key": "mercedes/mercedes-c/mercedes-c-gen-2007-2014",
+      "make": "mercedes",
+      "model": "mercedes/mercedes-c",
+      "generation": "mercedes-c-gen-2007-2014",
+      "year_start": 2007,
+      "year_end": 2014
+    },
+    {
+      "key": "mercedes/mercedes-c/mercedes-c-gen-2015-2020",
+      "make": "mercedes",
+      "model": "mercedes/mercedes-c",
+      "generation": "mercedes-c-gen-2015-2020",
+      "year_start": 2015,
+      "year_end": 2020
+    },
+    {
+      "key": "mercedes/mercedes-e/mercedes-e-gen-2010-2016",
+      "make": "mercedes",
+      "model": "mercedes/mercedes-e",
+      "generation": "mercedes-e-gen-2010-2016",
+      "year_start": 2010,
+      "year_end": 2016
+    },
+    {
+      "key": "mercedes/mercedes-e/mercedes-e-gen-2017-2019",
+      "make": "mercedes",
+      "model": "mercedes/mercedes-e",
+      "generation": "mercedes-e-gen-2017-2019",
+      "year_start": 2017,
+      "year_end": 2019
+    },
+    {
+      "key": "mercedes/mercedes-s/mercedes-s-gen-2005-2013",
+      "make": "mercedes",
+      "model": "mercedes/mercedes-s",
+      "generation": "mercedes-s-gen-2005-2013",
+      "year_start": 2005,
+      "year_end": 2013
+    },
+    {
+      "key": "mercedes/mercedes-s/mercedes-s-gen-2013-2020",
+      "make": "mercedes",
+      "model": "mercedes/mercedes-s",
+      "generation": "mercedes-s-gen-2013-2020",
+      "year_start": 2013,
+      "year_end": 2020
+    },
+    {
+      "key": "mitsubishi/mitsubeshi-attrage/mitsubeshi-attrage-gen-2012-2020",
+      "make": "mitsubishi",
+      "model": "mitsubishi/mitsubeshi-attrage",
+      "generation": "mitsubeshi-attrage-gen-2012-2020",
+      "year_start": 2012,
+      "year_end": 2020
+    },
+    {
+      "key": "mitsubishi/mitsubishi-pajero/mitsubeshi-pajero-generation-2006-2020",
+      "make": "mitsubishi",
+      "model": "mitsubishi/mitsubishi-pajero",
+      "generation": "mitsubeshi-pajero-generation-2006-2020",
+      "year_start": 2006,
+      "year_end": 2020
+    },
+    {
+      "key": "nissan/nissan-altima/nissan-altima-gen-2007-2012",
+      "make": "nissan",
+      "model": "nissan/nissan-altima",
+      "generation": "nissan-altima-gen-2007-2012",
+      "year_start": 2007,
+      "year_end": 2012
+    },
+    {
+      "key": "nissan/nissan-altima/nissan-altima-gen-2012-2018",
+      "make": "nissan",
+      "model": "nissan/nissan-altima",
+      "generation": "nissan-altima-gen-2012-2018",
+      "year_start": 2012,
+      "year_end": 2018
+    },
+    {
+      "key": "nissan/nissan-altima/nissan-altima-gen-2018-2020",
+      "make": "nissan",
+      "model": "nissan/nissan-altima",
+      "generation": "nissan-altima-gen-2018-2020",
+      "year_start": 2018,
+      "year_end": 2020
+    },
+    {
+      "key": "nissan/nissan-armada/nissan-armada-gen-2003-2016",
+      "make": "nissan",
+      "model": "nissan/nissan-armada",
+      "generation": "nissan-armada-gen-2003-2016",
+      "year_start": 2003,
+      "year_end": 2016
+    },
+    {
+      "key": "nissan/nissan-armada/nissan-armada-gen-2016-2021",
+      "make": "nissan",
+      "model": "nissan/nissan-armada",
+      "generation": "nissan-armada-gen-2016-2021",
+      "year_start": 2016,
+      "year_end": 2021
+    },
+    {
+      "key": "nissan/nissan-datsun/nissan-datsun-gen-2010-2016",
+      "make": "nissan",
+      "model": "nissan/nissan-datsun",
+      "generation": "nissan-datsun-gen-2010-2016",
+      "year_start": 2010,
+      "year_end": 2016
+    },
+    {
+      "key": "nissan/nissan-maxima/nissan-maxima-gen-2009-2015",
+      "make": "nissan",
+      "model": "nissan/nissan-maxima",
+      "generation": "nissan-maxima-gen-2009-2015",
+      "year_start": 2009,
+      "year_end": 2015
+    },
+    {
+      "key": "nissan/nissan-maxima/nissan-maxima-gen-2016-2018",
+      "make": "nissan",
+      "model": "nissan/nissan-maxima",
+      "generation": "nissan-maxima-gen-2016-2018",
+      "year_start": 2016,
+      "year_end": 2018
+    },
+    {
+      "key": "nissan/nissan-maxima/nissan-maxima-gen-2019-2020",
+      "make": "nissan",
+      "model": "nissan/nissan-maxima",
+      "generation": "nissan-maxima-gen-2019-2020",
+      "year_start": 2019,
+      "year_end": 2020
+    },
+    {
+      "key": "nissan/nissan-navara/nissan-navara-gen-2010-2015",
+      "make": "nissan",
+      "model": "nissan/nissan-navara",
+      "generation": "nissan-navara-gen-2010-2015",
+      "year_start": 2010,
+      "year_end": 2015
+    },
+    {
+      "key": "nissan/nissan-navara/nissan-navara-gen-2016-2020",
+      "make": "nissan",
+      "model": "nissan/nissan-navara",
+      "generation": "nissan-navara-gen-2016-2020",
+      "year_start": 2016,
+      "year_end": 2020
+    },
+    {
+      "key": "nissan/nissan-patrol/nissan-patrol-gen-1997-2010",
+      "make": "nissan",
+      "model": "nissan/nissan-patrol",
+      "generation": "nissan-patrol-gen-1997-2010",
+      "year_start": 1997,
+      "year_end": 2010
+    },
+    {
+      "key": "nissan/nissan-patrol/nissan-patrol-gen-2010-2020",
+      "make": "nissan",
+      "model": "nissan/nissan-patrol",
+      "generation": "nissan-patrol-gen-2010-2020",
+      "year_start": 2010,
+      "year_end": 2020
+    },
+    {
+      "key": "nissan/nissan-sunny/nissan-sunny-gen-2004-2006",
+      "make": "nissan",
+      "model": "nissan/nissan-sunny",
+      "generation": "nissan-sunny-gen-2004-2006",
+      "year_start": 2004,
+      "year_end": 2006
+    },
+    {
+      "key": "nissan/nissan-sunny/nissan-sunny-gen-2006-2012",
+      "make": "nissan",
+      "model": "nissan/nissan-sunny",
+      "generation": "nissan-sunny-gen-2006-2012",
+      "year_start": 2006,
+      "year_end": 2012
+    },
+    {
+      "key": "nissan/nissan-sunny/nissan-sunny-gen-2013-2020",
+      "make": "nissan",
+      "model": "nissan/nissan-sunny",
+      "generation": "nissan-sunny-gen-2013-2020",
+      "year_start": 2013,
+      "year_end": 2020
+    },
+    {
+      "key": "peugeot/peugeot-508/peugeot-508-gen-1980-2020",
+      "make": "peugeot",
+      "model": "peugeot/peugeot-508",
+      "generation": "peugeot-508-gen-1980-2020",
+      "year_start": 1980,
+      "year_end": 2020
+    },
+    {
+      "key": "porsche/Porsche-911/porsche-911-gen-2013-2019",
+      "make": "porsche",
+      "model": "porsche/Porsche-911",
+      "generation": "porsche-911-gen-2013-2019",
+      "year_start": 2013,
+      "year_end": 2019
+    },
+    {
+      "key": "porsche/Porsche-911/porsche-911-gen-2019-2021",
+      "make": "porsche",
+      "model": "porsche/Porsche-911",
+      "generation": "porsche-911-gen-2019-2021",
+      "year_start": 2019,
+      "year_end": 2021
+    },
+    {
+      "key": "porsche/Porsche-cayenne/porsche-cayenne-gen-2002-2009",
+      "make": "porsche",
+      "model": "porsche/Porsche-cayenne",
+      "generation": "porsche-cayenne-gen-2002-2009",
+      "year_start": 2002,
+      "year_end": 2009
+    },
+    {
+      "key": "porsche/Porsche-cayenne/porsche-cayenne-gen-2009-2017",
+      "make": "porsche",
+      "model": "porsche/Porsche-cayenne",
+      "generation": "porsche-cayenne-gen-2009-2017",
+      "year_start": 2009,
+      "year_end": 2017
+    },
+    {
+      "key": "porsche/Porsche-cayenne/porsche-cayenne-gen-2017-2021",
+      "make": "porsche",
+      "model": "porsche/Porsche-cayenne",
+      "generation": "porsche-cayenne-gen-2017-2021",
+      "year_start": 2017,
+      "year_end": 2021
+    },
+    {
+      "key": "porsche/Porsche-macan/porsche-macan-gen-2014-2018",
+      "make": "porsche",
+      "model": "porsche/Porsche-macan",
+      "generation": "porsche-macan-gen-2014-2018",
+      "year_start": 2014,
+      "year_end": 2018
+    },
+    {
+      "key": "porsche/Porsche-macan/porsche-macan-gen-2018-2020",
+      "make": "porsche",
+      "model": "porsche/Porsche-macan",
+      "generation": "porsche-macan-gen-2018-2020",
+      "year_start": 2018,
+      "year_end": 2020
+    },
+    {
+      "key": "toyota/toyota-avalon/toyota-avalon-gen-2005-2012",
+      "make": "toyota",
+      "model": "toyota/toyota-avalon",
+      "generation": "toyota-avalon-gen-2005-2012",
+      "year_start": 2005,
+      "year_end": 2012
+    },
+    {
+      "key": "toyota/toyota-avalon/toyota-avalon-gen-2013-2018",
+      "make": "toyota",
+      "model": "toyota/toyota-avalon",
+      "generation": "toyota-avalon-gen-2013-2018",
+      "year_start": 2013,
+      "year_end": 2018
+    },
+    {
+      "key": "toyota/toyota-avalon/toyota-avalon-gen-2019-2020",
+      "make": "toyota",
+      "model": "toyota/toyota-avalon",
+      "generation": "toyota-avalon-gen-2019-2020",
+      "year_start": 2019,
+      "year_end": 2020
+    },
+    {
+      "key": "toyota/toyota-camery/toyota-camry-gen-2007-2011",
+      "make": "toyota",
+      "model": "toyota/toyota-camery",
+      "generation": "toyota-camry-gen-2007-2011",
+      "year_start": 2007,
+      "year_end": 2011
+    },
+    {
+      "key": "toyota/toyota-camery/toyota-camry-gen-2011-2014",
+      "make": "toyota",
+      "model": "toyota/toyota-camery",
+      "generation": "toyota-camry-gen-2011-2014",
+      "year_start": 2011,
+      "year_end": 2014
+    },
+    {
+      "key": "toyota/toyota-camery/toyota-camry-gen-2014-2017",
+      "make": "toyota",
+      "model": "toyota/toyota-camery",
+      "generation": "toyota-camry-gen-2014-2017",
+      "year_start": 2014,
+      "year_end": 2017
+    },
+    {
+      "key": "toyota/toyota-camery/toyota-camry-gen-2017-2020",
+      "make": "toyota",
+      "model": "toyota/toyota-camery",
+      "generation": "toyota-camry-gen-2017-2020",
+      "year_start": 2017,
+      "year_end": 2020
+    },
+    {
+      "key": "toyota/toyota-corolla/toyota-corolla-gen-2009-2013",
+      "make": "toyota",
+      "model": "toyota/toyota-corolla",
+      "generation": "toyota-corolla-gen-2009-2013",
+      "year_start": 2009,
+      "year_end": 2013
+    },
+    {
+      "key": "toyota/toyota-corolla/toyota-corolla-gen-2014-2016",
+      "make": "toyota",
+      "model": "toyota/toyota-corolla",
+      "generation": "toyota-corolla-gen-2014-2016",
+      "year_start": 2014,
+      "year_end": 2016
+    },
+    {
+      "key": "toyota/toyota-corolla/toyota-corolla-gen-2017-2019",
+      "make": "toyota",
+      "model": "toyota/toyota-corolla",
+      "generation": "toyota-corolla-gen-2017-2019",
+      "year_start": 2017,
+      "year_end": 2019
+    },
+    {
+      "key": "toyota/toyota-corolla/toyota-corolla-gen-2020-2020",
+      "make": "toyota",
+      "model": "toyota/toyota-corolla",
+      "generation": "toyota-corolla-gen-2020-2020",
+      "year_start": 2020,
+      "year_end": 2020
+    },
+    {
+      "key": "toyota/toyota-fj/toyota-fj-gen-2006-2020",
+      "make": "toyota",
+      "model": "toyota/toyota-fj",
+      "generation": "toyota-fj-gen-2006-2020",
+      "year_start": 2006,
+      "year_end": 2020
+    },
+    {
+      "key": "toyota/toyota-fortuner/toyota-fortuner-gen-2004-2015",
+      "make": "toyota",
+      "model": "toyota/toyota-fortuner",
+      "generation": "toyota-fortuner-gen-2004-2015",
+      "year_start": 2004,
+      "year_end": 2015
+    },
+    {
+      "key": "toyota/toyota-fortuner/toyota-fortuner-gen-2015-2020",
+      "make": "toyota",
+      "model": "toyota/toyota-fortuner",
+      "generation": "toyota-fortuner-gen-2015-2020",
+      "year_start": 2015,
+      "year_end": 2020
+    },
+    {
+      "key": "toyota/toyota-hiace/toyota-hiace-gen-2005-2018",
+      "make": "toyota",
+      "model": "toyota/toyota-hiace",
+      "generation": "toyota-hiace-gen-2005-2018",
+      "year_start": 2005,
+      "year_end": 2018
+    },
+    {
+      "key": "toyota/toyota-hiace/toyota-hiace-gen-2019-2020",
+      "make": "toyota",
+      "model": "toyota/toyota-hiace",
+      "generation": "toyota-hiace-gen-2019-2020",
+      "year_start": 2019,
+      "year_end": 2020
+    },
+    {
+      "key": "toyota/toyota-hilux/toyota-hilux-gen-2005-2015",
+      "make": "toyota",
+      "model": "toyota/toyota-hilux",
+      "generation": "toyota-hilux-gen-2005-2015",
+      "year_start": 2005,
+      "year_end": 2015
+    },
+    {
+      "key": "toyota/toyota-hilux/toyota-hilux-gen-2015-2020",
+      "make": "toyota",
+      "model": "toyota/toyota-hilux",
+      "generation": "toyota-hilux-gen-2015-2020",
+      "year_start": 2015,
+      "year_end": 2020
+    },
+    {
+      "key": "toyota/toyota-innova/toyota-innova-gen-1908-2020",
+      "make": "toyota",
+      "model": "toyota/toyota-innova",
+      "generation": "toyota-innova-gen-1908-2020",
+      "year_start": 1908,
+      "year_end": 2020
+    },
+    {
+      "key": "toyota/toyota-landcruiser/toyota-landcruiser-gen-2007-2020",
+      "make": "toyota",
+      "model": "toyota/toyota-landcruiser",
+      "generation": "toyota-landcruiser-gen-2007-2020",
+      "year_start": 2007,
+      "year_end": 2020
+    },
+    {
+      "key": "toyota/toyota-prado/toyota-prado-gen-1996-2002",
+      "make": "toyota",
+      "model": "toyota/toyota-prado",
+      "generation": "toyota-prado-gen-1996-2002",
+      "year_start": 1996,
+      "year_end": 2002
+    },
+    {
+      "key": "toyota/toyota-prado/toyota-prado-gen-2003-2020",
+      "make": "toyota",
+      "model": "toyota/toyota-prado",
+      "generation": "toyota-prado-gen-2003-2020",
+      "year_start": 2003,
+      "year_end": 2020
+    },
+    {
+      "key": "toyota/toyota-rav4/toyota-rav4-gen-2006-2012",
+      "make": "toyota",
+      "model": "toyota/toyota-rav4",
+      "generation": "toyota-rav4-gen-2006-2012",
+      "year_start": 2006,
+      "year_end": 2012
+    },
+    {
+      "key": "toyota/toyota-rav4/toyota-rav4-gen-2013-2018",
+      "make": "toyota",
+      "model": "toyota/toyota-rav4",
+      "generation": "toyota-rav4-gen-2013-2018",
+      "year_start": 2013,
+      "year_end": 2018
+    },
+    {
+      "key": "toyota/toyota-rav4/toyota-rav4-gen-2019-2020",
+      "make": "toyota",
+      "model": "toyota/toyota-rav4",
+      "generation": "toyota-rav4-gen-2019-2020",
+      "year_start": 2019,
+      "year_end": 2020
+    },
+    {
+      "key": "toyota/toyota-yaris/toyota-yaris-gen-2010-2013",
+      "make": "toyota",
+      "model": "toyota/toyota-yaris",
+      "generation": "toyota-yaris-gen-2010-2013",
+      "year_start": 2010,
+      "year_end": 2013
+    },
+    {
+      "key": "toyota/toyota-yaris/toyota-yaris-gen-2014-2017",
+      "make": "toyota",
+      "model": "toyota/toyota-yaris",
+      "generation": "toyota-yaris-gen-2014-2017",
+      "year_start": 2014,
+      "year_end": 2017
+    },
+    {
+      "key": "toyota/toyota-yaris/toyota-yaris-gen-2018-2020",
+      "make": "toyota",
+      "model": "toyota/toyota-yaris",
+      "generation": "toyota-yaris-gen-2018-2020",
+      "year_start": 2018,
+      "year_end": 2020
+    },
+    {
+      "key": "audi/a1/compcars-model-family",
+      "make": "audi",
+      "model": "audi/a1",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "audi/a3/compcars-model-family",
+      "make": "audi",
+      "model": "audi/a3",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "audi/a4/compcars-model-family",
+      "make": "audi",
+      "model": "audi/a4",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "audi/a5/compcars-model-family",
+      "make": "audi",
+      "model": "audi/a5",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "audi/a6/compcars-model-family",
+      "make": "audi",
+      "model": "audi/a6",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "audi/q3/compcars-model-family",
+      "make": "audi",
+      "model": "audi/q3",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "audi/q5/compcars-model-family",
+      "make": "audi",
+      "model": "audi/q5",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "audi/s5/compcars-model-family",
+      "make": "audi",
+      "model": "audi/s5",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "audi/s8/compcars-model-family",
+      "make": "audi",
+      "model": "audi/s8",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "audi/tt/compcars-model-family",
+      "make": "audi",
+      "model": "audi/tt",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "bmw/1-series/compcars-model-family",
+      "make": "bmw",
+      "model": "bmw/1-series",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "bmw/3-series/compcars-model-family",
+      "make": "bmw",
+      "model": "bmw/3-series",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "bmw/6-series/compcars-model-family",
+      "make": "bmw",
+      "model": "bmw/6-series",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "bmw/m5/compcars-model-family",
+      "make": "bmw",
+      "model": "bmw/m5",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "bmw/x1/compcars-model-family",
+      "make": "bmw",
+      "model": "bmw/x1",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "bmw/x3/compcars-model-family",
+      "make": "bmw",
+      "model": "bmw/x3",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "buick/encore/compcars-model-family",
+      "make": "buick",
+      "model": "buick/encore",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "buick/excelle/compcars-model-family",
+      "make": "buick",
+      "model": "buick/excelle",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "buick/gl8/compcars-model-family",
+      "make": "buick",
+      "model": "buick/gl8",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "buick/lacrosse/compcars-model-family",
+      "make": "buick",
+      "model": "buick/lacrosse",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "buick/regal/compcars-model-family",
+      "make": "buick",
+      "model": "buick/regal",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "byd/f0/compcars-model-family",
+      "make": "byd",
+      "model": "byd/f0",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "byd/f3r/compcars-model-family",
+      "make": "byd",
+      "model": "byd/f3r",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "byd/f6/compcars-model-family",
+      "make": "byd",
+      "model": "byd/f6",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "byd/l3/compcars-model-family",
+      "make": "byd",
+      "model": "byd/l3",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "byd/m6/compcars-model-family",
+      "make": "byd",
+      "model": "byd/m6",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "byd/s6/compcars-model-family",
+      "make": "byd",
+      "model": "byd/s6",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "cadillac/cts/compcars-model-family",
+      "make": "cadillac",
+      "model": "cadillac/cts",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "cadillac/seville-sls/compcars-model-family",
+      "make": "cadillac",
+      "model": "cadillac/seville-sls",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "cadillac/srx/compcars-model-family",
+      "make": "cadillac",
+      "model": "cadillac/srx",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "cadillac/xts/compcars-model-family",
+      "make": "cadillac",
+      "model": "cadillac/xts",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "chevrolet/camaro/compcars-model-family",
+      "make": "chevrolet",
+      "model": "chevrolet/camaro",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "chevrolet/captiva/compcars-model-family",
+      "make": "chevrolet",
+      "model": "chevrolet/captiva",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "chevrolet/cruze/compcars-model-family",
+      "make": "chevrolet",
+      "model": "chevrolet/cruze",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "chevrolet/epica/compcars-model-family",
+      "make": "chevrolet",
+      "model": "chevrolet/epica",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "chevrolet/lova/compcars-model-family",
+      "make": "chevrolet",
+      "model": "chevrolet/lova",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "chevrolet/sail/compcars-model-family",
+      "make": "chevrolet",
+      "model": "chevrolet/sail",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "ds/3/compcars-model-family",
+      "make": "ds",
+      "model": "ds/3",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "ds/5/compcars-model-family",
+      "make": "ds",
+      "model": "ds/5",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "fiat/500/compcars-model-family",
+      "make": "fiat",
+      "model": "fiat/500",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "fiat/bravo/compcars-model-family",
+      "make": "fiat",
+      "model": "fiat/bravo",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "ford/ecosport/compcars-model-family",
+      "make": "ford",
+      "model": "ford/ecosport",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "ford/fiesta/compcars-model-family",
+      "make": "ford",
+      "model": "ford/fiesta",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "ford/focus/compcars-model-family",
+      "make": "ford",
+      "model": "ford/focus",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "ford/mustang/compcars-model-family",
+      "make": "ford",
+      "model": "ford/mustang",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "geely/ec8/compcars-model-family",
+      "make": "geely",
+      "model": "geely/ec8",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "great-wall/c50/compcars-model-family",
+      "make": "great-wall",
+      "model": "great-wall/c50",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "great-wall/m4/compcars-model-family",
+      "make": "great-wall",
+      "model": "great-wall/m4",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "great-wall/v80/compcars-model-family",
+      "make": "great-wall",
+      "model": "great-wall/v80",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "great-wall/wingle-5/compcars-model-family",
+      "make": "great-wall",
+      "model": "great-wall/wingle-5",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "haval/h3/compcars-model-family",
+      "make": "haval",
+      "model": "haval/h3",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "honda/civic/compcars-model-family",
+      "make": "honda",
+      "model": "honda/civic",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "honda/cr-v/compcars-model-family",
+      "make": "honda",
+      "model": "honda/cr-v",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "honda/crosstour/compcars-model-family",
+      "make": "honda",
+      "model": "honda/crosstour",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "honda/spirior/compcars-model-family",
+      "make": "honda",
+      "model": "honda/spirior",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "hyundai/equus/compcars-model-family",
+      "make": "hyundai",
+      "model": "hyundai/equus",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "hyundai/i30/compcars-model-family",
+      "make": "hyundai",
+      "model": "hyundai/i30",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "hyundai/ix35/compcars-model-family",
+      "make": "hyundai",
+      "model": "hyundai/ix35",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "hyundai/veloster/compcars-model-family",
+      "make": "hyundai",
+      "model": "hyundai/veloster",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "infiniti/q70l/compcars-model-family",
+      "make": "infiniti",
+      "model": "infiniti/q70l",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "infiniti/qx50/compcars-model-family",
+      "make": "infiniti",
+      "model": "infiniti/qx50",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "jaguar/xf/compcars-model-family",
+      "make": "jaguar",
+      "model": "jaguar/xf",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "jaguar/xj/compcars-model-family",
+      "make": "jaguar",
+      "model": "jaguar/xj",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "jeep/patriot/compcars-model-family",
+      "make": "jeep",
+      "model": "jeep/patriot",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "kia/sorento/compcars-model-family",
+      "make": "kia",
+      "model": "kia/sorento",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "kia/soul/compcars-model-family",
+      "make": "kia",
+      "model": "kia/soul",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "lamborghini/gallardo/compcars-model-family",
+      "make": "lamborghini",
+      "model": "lamborghini/gallardo",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "landrover/discovery/compcars-model-family",
+      "make": "landrover",
+      "model": "landrover/discovery",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "landrover/range-rover-sport/compcars-model-family",
+      "make": "landrover",
+      "model": "landrover/range-rover-sport",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "lexus/ct/compcars-model-family",
+      "make": "lexus",
+      "model": "lexus/ct",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "lexus/gs/compcars-model-family",
+      "make": "lexus",
+      "model": "lexus/gs",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "lexus/is/compcars-model-family",
+      "make": "lexus",
+      "model": "lexus/is",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "mazda/2/compcars-model-family",
+      "make": "mazda",
+      "model": "mazda/2",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "mazda/5/compcars-model-family",
+      "make": "mazda",
+      "model": "mazda/5",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "mazda/cx-7/compcars-model-family",
+      "make": "mazda",
+      "model": "mazda/cx-7",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "mercedes/a-class/compcars-model-family",
+      "make": "mercedes",
+      "model": "mercedes/a-class",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "mercedes/g-class/compcars-model-family",
+      "make": "mercedes",
+      "model": "mercedes/g-class",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "mercedes/gl-class/compcars-model-family",
+      "make": "mercedes",
+      "model": "mercedes/gl-class",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "mercedes/glk-class/compcars-model-family",
+      "make": "mercedes",
+      "model": "mercedes/glk-class",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "mercedes/r-class/compcars-model-family",
+      "make": "mercedes",
+      "model": "mercedes/r-class",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "mercedes/slk-class/compcars-model-family",
+      "make": "mercedes",
+      "model": "mercedes/slk-class",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "mg/3/compcars-model-family",
+      "make": "mg",
+      "model": "mg/3",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "mg/5/compcars-model-family",
+      "make": "mg",
+      "model": "mg/5",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "mg/6/compcars-model-family",
+      "make": "mg",
+      "model": "mg/6",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "mini/clubman/compcars-model-family",
+      "make": "mini",
+      "model": "mini/clubman",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "mini/countryman/compcars-model-family",
+      "make": "mini",
+      "model": "mini/countryman",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "mini/paceman/compcars-model-family",
+      "make": "mini",
+      "model": "mini/paceman",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "mitsubishi/asx/compcars-model-family",
+      "make": "mitsubishi",
+      "model": "mitsubishi/asx",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "mitsubishi/evolution/compcars-model-family",
+      "make": "mitsubishi",
+      "model": "mitsubishi/evolution",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "mitsubishi/lancer-ex/compcars-model-family",
+      "make": "mitsubishi",
+      "model": "mitsubishi/lancer-ex",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "mitsubishi/outlander/compcars-model-family",
+      "make": "mitsubishi",
+      "model": "mitsubishi/outlander",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "nissan/gt-r/compcars-model-family",
+      "make": "nissan",
+      "model": "nissan/gt-r",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "nissan/livina/compcars-model-family",
+      "make": "nissan",
+      "model": "nissan/livina",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "nissan/nv200/compcars-model-family",
+      "make": "nissan",
+      "model": "nissan/nv200",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "nissan/qashqai/compcars-model-family",
+      "make": "nissan",
+      "model": "nissan/qashqai",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "nissan/sylphy/compcars-model-family",
+      "make": "nissan",
+      "model": "nissan/sylphy",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "nissan/tiida/compcars-model-family",
+      "make": "nissan",
+      "model": "nissan/tiida",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "opel/antara/compcars-model-family",
+      "make": "opel",
+      "model": "opel/antara",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "opel/gtc/compcars-model-family",
+      "make": "opel",
+      "model": "opel/gtc",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "peugeot/2008/compcars-model-family",
+      "make": "peugeot",
+      "model": "peugeot/2008",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "peugeot/207/compcars-model-family",
+      "make": "peugeot",
+      "model": "peugeot/207",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "peugeot/3008/compcars-model-family",
+      "make": "peugeot",
+      "model": "peugeot/3008",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "peugeot/301/compcars-model-family",
+      "make": "peugeot",
+      "model": "peugeot/301",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "peugeot/307/compcars-model-family",
+      "make": "peugeot",
+      "model": "peugeot/307",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "peugeot/308/compcars-model-family",
+      "make": "peugeot",
+      "model": "peugeot/308",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "peugeot/4008/compcars-model-family",
+      "make": "peugeot",
+      "model": "peugeot/4008",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "peugeot/408/compcars-model-family",
+      "make": "peugeot",
+      "model": "peugeot/408",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "peugeot/rcz/compcars-model-family",
+      "make": "peugeot",
+      "model": "peugeot/rcz",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "porsche/cayman/compcars-model-family",
+      "make": "porsche",
+      "model": "porsche/cayman",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "porsche/panamera/compcars-model-family",
+      "make": "porsche",
+      "model": "porsche/panamera",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "renault/koleos/compcars-model-family",
+      "make": "renault",
+      "model": "renault/koleos",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "renault/scenic/compcars-model-family",
+      "make": "renault",
+      "model": "renault/scenic",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "skoda/fabia/compcars-model-family",
+      "make": "skoda",
+      "model": "skoda/fabia",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "skoda/octavia/compcars-model-family",
+      "make": "skoda",
+      "model": "skoda/octavia",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "skoda/rapid/compcars-model-family",
+      "make": "skoda",
+      "model": "skoda/rapid",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "skoda/superb/compcars-model-family",
+      "make": "skoda",
+      "model": "skoda/superb",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "subaru/impreza/compcars-model-family",
+      "make": "subaru",
+      "model": "subaru/impreza",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "suzuki/alto/compcars-model-family",
+      "make": "suzuki",
+      "model": "suzuki/alto",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "suzuki/sx4/compcars-model-family",
+      "make": "suzuki",
+      "model": "suzuki/sx4",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "toyota/86/compcars-model-family",
+      "make": "toyota",
+      "model": "toyota/86",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "toyota/crown/compcars-model-family",
+      "make": "toyota",
+      "model": "toyota/crown",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "toyota/reiz/compcars-model-family",
+      "make": "toyota",
+      "model": "toyota/reiz",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "toyota/venza/compcars-model-family",
+      "make": "toyota",
+      "model": "toyota/venza",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "toyota/vios/compcars-model-family",
+      "make": "toyota",
+      "model": "toyota/vios",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "volkswagen/beetle/compcars-model-family",
+      "make": "volkswagen",
+      "model": "volkswagen/beetle",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "volkswagen/bora/compcars-model-family",
+      "make": "volkswagen",
+      "model": "volkswagen/bora",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "volkswagen/cc/compcars-model-family",
+      "make": "volkswagen",
+      "model": "volkswagen/cc",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "volkswagen/eos/compcars-model-family",
+      "make": "volkswagen",
+      "model": "volkswagen/eos",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "volkswagen/golf/compcars-model-family",
+      "make": "volkswagen",
+      "model": "volkswagen/golf",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "volkswagen/jetta/compcars-model-family",
+      "make": "volkswagen",
+      "model": "volkswagen/jetta",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "volkswagen/lavida/compcars-model-family",
+      "make": "volkswagen",
+      "model": "volkswagen/lavida",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "volkswagen/magotan/compcars-model-family",
+      "make": "volkswagen",
+      "model": "volkswagen/magotan",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "volkswagen/multivan/compcars-model-family",
+      "make": "volkswagen",
+      "model": "volkswagen/multivan",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "volkswagen/passat/compcars-model-family",
+      "make": "volkswagen",
+      "model": "volkswagen/passat",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "volkswagen/phaeton/compcars-model-family",
+      "make": "volkswagen",
+      "model": "volkswagen/phaeton",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "volkswagen/polo/compcars-model-family",
+      "make": "volkswagen",
+      "model": "volkswagen/polo",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "volkswagen/sagitar/compcars-model-family",
+      "make": "volkswagen",
+      "model": "volkswagen/sagitar",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "volkswagen/scirocco/compcars-model-family",
+      "make": "volkswagen",
+      "model": "volkswagen/scirocco",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "volkswagen/tiguan/compcars-model-family",
+      "make": "volkswagen",
+      "model": "volkswagen/tiguan",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "volkswagen/touareg/compcars-model-family",
+      "make": "volkswagen",
+      "model": "volkswagen/touareg",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "volkswagen/touran/compcars-model-family",
+      "make": "volkswagen",
+      "model": "volkswagen/touran",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "volvo/c30/compcars-model-family",
+      "make": "volvo",
+      "model": "volvo/c30",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "volvo/c70/compcars-model-family",
+      "make": "volvo",
+      "model": "volvo/c70",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "volvo/s40/compcars-model-family",
+      "make": "volvo",
+      "model": "volvo/s40",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "volvo/s60/compcars-model-family",
+      "make": "volvo",
+      "model": "volvo/s60",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "volvo/s80l/compcars-model-family",
+      "make": "volvo",
+      "model": "volvo/s80l",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "volvo/v40/compcars-model-family",
+      "make": "volvo",
+      "model": "volvo/v40",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "volvo/v60/compcars-model-family",
+      "make": "volvo",
+      "model": "volvo/v60",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "volvo/xc60/compcars-model-family",
+      "make": "volvo",
+      "model": "volvo/xc60",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    },
+    {
+      "key": "volvo/xc90/compcars-model-family",
+      "make": "volvo",
+      "model": "volvo/xc90",
+      "generation": null,
+      "year_start": null,
+      "year_end": null
+    }
+  ],
+  "calibration": {
+    "temperature": 0.7498942017555237,
+    "threshold": 0.7103378772735596,
+    "checkpoint_sha256": "6b92195d96a898d507f0d0a2b34b3801dd75715f1b3a93da8f43180c163f7522",
+    "manifest_sha256": "cdd9e621bd686868486e73050e77bc3bd34fde97b68cda10ff9bf9a3ca1466ed",
+    "split": "calibration",
+    "samples": 4677,
+    "rejection_note": "In-distribution confidence heuristic only; non-car and unseen-car rejection not validated"
+  },
+  "trained": true,
+  "checkpoint_sha256": "6b92195d96a898d507f0d0a2b34b3801dd75715f1b3a93da8f43180c163f7522",
+  "manifest_sha256": "cdd9e621bd686868486e73050e77bc3bd34fde97b68cda10ff9bf9a3ca1466ed",
+  "source_sha256": "eabbef36826704bd7dd94783ba8037c5651c402186c1bf1f14e10dbf86a2821b",
+  "epoch": 29
+}
